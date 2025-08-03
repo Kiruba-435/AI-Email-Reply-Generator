@@ -1,7 +1,7 @@
 from openai import OpenAI
 from config import api_key
 
-def query_openrouter_api(prompt, referer=None, title=None):
+def query_openrouter_api(prompt, referer="https://ai-email-reply-generator.streamlit.app/", title="AI Email Replier"):
     try:
         client = OpenAI(
             base_url="https://openrouter.ai/api/v1",
