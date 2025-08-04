@@ -1,5 +1,5 @@
 from openai import OpenAI
-from config import api_key
+from config import api_key,OPENROUTER_API_URL
 
 def query_openrouter_api(prompt, referer="https://ai-email-reply-generator.streamlit.app/", title="AI Email Replier"):
     try:

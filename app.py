@@ -4,6 +4,8 @@ from prompt_utils import build_custom_prompt
 from api_logic import query_openrouter_api 
 from feedback_handler import save_feedback
 
+st.secrets["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"]
+
 
 st.set_page_config(page_title="📬 AI Email Replier", layout="centered")
 
